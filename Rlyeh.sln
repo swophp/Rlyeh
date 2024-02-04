@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{F597B96F-2642-43EF-8965-A18A965F2206}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rlyeh", "Source\Rlyeh\Rlyeh.csproj", "{D45D4C0F-EE35-4E4D-A85E-67D4AA403DA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_items", "_items", "{19179E25-91FB-44BD-B535-B62155DF9392}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+		Rlyeh.sln.DotSettings = Rlyeh.sln.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sandbox", "Sandbox", "{ADB14463-127B-45EB-805B-EFF257FCD19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rlyeh.Sandbox.Assets", "Sandbox\Rlyeh.Sandbox.Assets\Rlyeh.Sandbox.Assets.csproj", "{664D89A3-1B05-4001-8C29-DAB7B414A029}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rlyeh.Sandbox", "Sandbox\Rlyeh.Sandbox\Rlyeh.Sandbox.csproj", "{FA65EF6F-E8E4-4CE3-AAEB-7D4A45C4BB09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D45D4C0F-EE35-4E4D-A85E-67D4AA403DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45D4C0F-EE35-4E4D-A85E-67D4AA403DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45D4C0F-EE35-4E4D-A85E-67D4AA403DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45D4C0F-EE35-4E4D-A85E-67D4AA403DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664D89A3-1B05-4001-8C29-DAB7B414A029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664D89A3-1B05-4001-8C29-DAB7B414A029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664D89A3-1B05-4001-8C29-DAB7B414A029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664D89A3-1B05-4001-8C29-DAB7B414A029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA65EF6F-E8E4-4CE3-AAEB-7D4A45C4BB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA65EF6F-E8E4-4CE3-AAEB-7D4A45C4BB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA65EF6F-E8E4-4CE3-AAEB-7D4A45C4BB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA65EF6F-E8E4-4CE3-AAEB-7D4A45C4BB09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D45D4C0F-EE35-4E4D-A85E-67D4AA403DA7} = {F597B96F-2642-43EF-8965-A18A965F2206}
+		{664D89A3-1B05-4001-8C29-DAB7B414A029} = {ADB14463-127B-45EB-805B-EFF257FCD19A}
+		{FA65EF6F-E8E4-4CE3-AAEB-7D4A45C4BB09} = {ADB14463-127B-45EB-805B-EFF257FCD19A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E394D883-5C2C-477C-98DD-FCEC83F02669}
+	EndGlobalSection
+EndGlobal
